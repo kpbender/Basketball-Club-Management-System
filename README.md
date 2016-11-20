@@ -1,5 +1,5 @@
 # Basketball-Club-Management-System
-Final Year Group Project (Partial)
-This project contains only files implemented by me.
+Final Year Group Project (Incomplete)
+This repository does not contain the contributions of the other group members.  
 
-File Description:
+
