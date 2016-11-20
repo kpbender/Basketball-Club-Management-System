@@ -1,0 +1,71 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.label{
+-fx-text-fill: gray;
+}
+
+.root{
+    -fx-background-color: #DCDCDC;
+    -fx-accent: #FFD500;
+    -fx-focus-color: orange; 
+    -fx-background-insets: -1.4, 0, 1;
+  	-fx-background-radius: 1.4, 0, 0;
+  	-fx-padding: 1;
+}
+.chart-legend {
+   -fx-background-color:  transparent;
+}
+.chart-plot-background {
+-fx-background-color: transparent;
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Calibri";
+    -fx-font-weight: bold;
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(#FFD700, #FF8C00);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.8;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#FF8C00, #FFD700);
+}
+.button:pressed {
+-fx-background-color: linear-gradient(#FF8C00, #FFD700);
+}
+.invalidValue{
+	-fx-text-box-border: red ;
+	-fx-faint-focus-color: transparent;
+   -fx-focus-color: red ; 
+}
+
+.table-row-cell:selected {
+   -fx-background-color: #FFD700; 
+}
+.table-row-cell:selected .text {
+       -fx-fill: black;
+}
+.myLabels{
+	-fx-text-fill: #2A5058;
+}
+.myFonts{
+	-fx-font: bold 10pt "Lucinda Bright";
+}
+.myFontsTwo{
+	-fx-font: bold 9pt "Lucinda Bright";
+}
+.checkboxTextColour{
+	-fx-text-fill: gray;
+}
+.radioTextColour{
+	-fx-text-fill: gray;
+}
+.requiredLabel{
+	-fx-text-fill: white;
+	-fx-font: bold 9pt "Lucinda Bright";
+}
+
+
+
+
